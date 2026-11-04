@@ -31,7 +31,7 @@ h1 {
   line-height: 1.25;
 }
 .purple {
-  color: #6c63ff;
+  color: #6415ff;
 }
 p {
   font-size: 18px;
@@ -48,7 +48,7 @@ p {
   font-size: 48px;
   font-weight: 900;
   color: rgba(36, 62, 99, 1);
-  line-height: 1.5;
+  line-height: 1.25;
   margin: 16px 0;
   letter-spacing: .025em;
 
@@ -57,7 +57,7 @@ p {
 #pricing .section__title {
   text-align: center;
 } 
-.section__paragraph {
+.section__para {
   font-size: 18px;
   font-weight: 500;
   color: #7c8ba1;
@@ -104,7 +104,7 @@ nav {
   letter-spacing: 0.6px;
 }
 .nav__logo img {
-  width: 40px;
+  width: 100%;
   height: 40px;
 }
 .nav__container {
@@ -118,8 +118,7 @@ nav {
 .nav__links {
   display: flex;
   align-items: center;
-  padding-bottom: 60px;
-
+  padding-bottom: 0;
 }
 .nav__link {
   margin: 0 24px;
@@ -167,35 +166,13 @@ nav {
   background-color: rgba(80, 17, 204);
   color: white;
 }
-
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .login {
   margin-left: 48px;
-}
-.btn {
-  background-color: #6415ff;
-  padding: 60px 24px;
-  border: none;
-  border-radius: 500px;
-  font-size: 14px;
-  color: #fff;
-  font-weight: bold;
-  transition: all 300ms ease;
-  cursor: pointer;
-}
-.btn__menu {
-  background-color: transparent;
-  border: none;
-  display: none;
-  transition: all 300ms ease;
-}
-.btn__menu--svg:hover {
-  filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg)
-    brightness(94%) contrast(115%);
-}
-.btn__menu--close {
-  position: fixed;
-  top: 24px;
-  right: 18px;
 }
 .menu {
   position: fixed;
@@ -1474,7 +1451,7 @@ footer {
   }
   .testimonial__img {
     height: 64px;
-    width: 64px;
+    width: 100%;
   }
   .testimonial__buttons {
     margin-top: 32px;
